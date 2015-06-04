@@ -33,7 +33,11 @@ We started development of Live Editor as a way of learning Javascript and CakePH
 2. Click Job Manager
 3. Create a new FTP account if you want to publish your changes to a remote website
 4. Click create job
-5. Add your job details
+5. Add your job details. Example: These would be the settings needed to load http://mysite.com/cms/home and edit http://mysite.com/cms/css/styles.css
+    - URL: 			        mysite.com
+    - Default URI: 		    cms/home
+    - Stylesheet URI Root: 	http://mysite.com/cms
+    - Stylesheet URI:		css/styles.css
 6. Choose your FTP account
 7. Allow the target website to be loaded via Apache proxy. The editor loads the target website in an iframe so to see changes to a live website you need to add an entry to your Apache httpd-vhosts.conf e.g.
 C:\wamp\bin\apache\apachex.x.x\conf\extra\httpd-vhosts.conf. Here is an example:
