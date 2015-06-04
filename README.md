@@ -6,7 +6,7 @@ Live Editor is a tool for editing and managing CSS/SASS/LESS files. It allow des
 
 The inspiration for Live Editor came from the CSS editor built into Chris Pedrick's Web Developer toolbar, and the editors built into Firefox and Google Chrome. We used these regularly as part of our toolkit but wanted a way to save and publish our changes from within the editor. We also wanted an editor that was browser independent. Live Editor runs from within a web browser so no installation is necessary.
 
-*NOTE: The tool has been developed and tested on PC Firefox only*
+**_NOTE: The tool has been developed and tested on PC Firefox only_**
 
 #### Background
 We started development of Live Editor as a way of learning Javascript and CakePHP therefore much of the code needs some work. It is by no means a finished product but the concept is good and we are pleased to say that we have been using it to edit many projects and it has proved to be a great time saver. It would be great to see this prototype version turned into a finished product.
