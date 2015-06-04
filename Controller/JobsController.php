@@ -92,7 +92,7 @@ class JobsController extends AppController {
 		
 		$job = $this->Job->findById($jobId);
 		
-		$storageDir = 'C:\wamp\www\live_editor'.DS.WEBROOT_DIR.DS.'cached_sites'.DS.$job['Job']['id'].DS.$job['Job']['url'];
+		$storageDir = APP.WEBROOT_DIR.DS.'cached_sites'.DS.$job['Job']['id'].DS.$job['Job']['url'];
 		
 		$mode = 1; //mode 0: grab individual page, mode 1: full mirror
 		
@@ -115,7 +115,7 @@ class JobsController extends AppController {
 		
 		$job = $this->Job->findById($jobId);
 		
-		$storageDir = 'C:\wamp\www\live_editor'.DS.WEBROOT_DIR.DS.'cached_sites'.DS.$job['Job']['id'].DS.$job['Job']['url'];
+		$storageDir = APP.WEBROOT_DIR.DS.'cached_sites'.DS.$job['Job']['id'].DS.$job['Job']['url'];
 		
 		if(file_exists($storageDir.DS.'hts-in_progress.lock')){
 			echo 1;
@@ -132,7 +132,7 @@ class JobsController extends AppController {
 		$job = $this->Job->findById($jobId);
 		
 		$defaultUri = !empty($job['Job']['default_uri'])?str_replace('/',DS,$job['Job']['default_uri']).DS:'';
-		$indexHtml = 'C:\wamp\www\live_editor'.DS.WEBROOT_DIR.DS.'cached_sites'.DS.$job['Job']['id'].DS.$job['Job']['url'].DS.$job['Job']['url'].DS.$defaultUri.'index.html';
+		$indexHtml = APP.WEBROOT_DIR.DS.'cached_sites'.DS.$job['Job']['id'].DS.$job['Job']['url'].DS.$job['Job']['url'].DS.$defaultUri.'index.html';
 		
 		if(file_exists($indexHtml)){
 			$lines = file($indexHtml);

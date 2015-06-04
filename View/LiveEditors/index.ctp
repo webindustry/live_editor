@@ -69,13 +69,7 @@ if($mode == 2){
  */
 
 /*
-	BUGS/ISSUES
-	-- Clicking links to go between pages causes css to be reloaded losinig any changes that have not been published to live site
-	-- (!)performing an edit then navigating away from the page needs a warning "changes will be lost, either publish or save them first" . same for when a reload is performed
-	-- (!)if window width gets too small it crashes. put a check on the resize maths
-	-- (!)opening edgebar on new window leaves gap in both x and y modes
-	-- reload does not revert the css (tested in sass mode) - needs a warning too
-	
+
 	NICE TO HAVES...
 	-- ability to customise device simulation sizes
 	-- integrate my em/px comversion tables
