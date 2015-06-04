@@ -6,7 +6,7 @@ Live Editor is a tool for editing and managing CSS/SASS/LESS files. It allow des
 
 The inspiration for Live Editor came from the CSS editor built into Chris Pedrick's Web Developer toolbar, and the editors built into Firefox and Google Chrome. We used these regularly as part of our toolkit but wanted a way to save and publish our changes from within the editor. We also wanted an editor that was browser independent. Live Editor runs from within a web browser so no installation is necessary.
 
-NOTE: The tool has been developed and tested on PC Firefox only
+**_NOTE: The tool has been developed and tested on PC Firefox only_**
 
 Quick video introduction: http://autode.sk/1wXSBPS
 
@@ -59,7 +59,8 @@ C:\wamp\bin\apache\apachex.x.x\conf\extra\httpd-vhosts.conf. Here is an example:
 10. Click your newly created job to start editing it
 
 ## Development notes
-Live Editor has been built with Cake PHP 2.5 and jQuery.
+- Live Editor has been built with Cake PHP 2.5 and jQuery.
+- The tool has been developed and tested on PC Firefox only
 
 ## Ideas to improve Live Editor
 - Make it work on more browsers and platforms
