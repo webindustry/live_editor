@@ -8,6 +8,8 @@ The inspiration for Live Editor came from the CSS editor built into Chris Pedric
 
 NOTE: The tool has been developed and tested on PC Firefox only
 
+Quick video introduction: http://autode.sk/1wXSBPS
+
 #### Background
 We started development of Live Editor as a way of learning Javascript and CakePHP therefore much of the code needs some work. It is by no means a finished product but the concept is good and we are pleased to say that we have been using it to edit many projects and it has proved to be a great time saver. It would be great to see this prototype version turned into a finished product.
 
@@ -24,7 +26,7 @@ We started development of Live Editor as a way of learning Javascript and CakePH
 2. Rename app/Config/core.php.default to core.php
 3. Rename app/Config/database.php.default to database.php and insert your database credentials
 5. Go to http://127.0.0.1/live_editor/live_editors
-6. You should now see the test site loaded
+6. You should now see the test site loaded. The code editor is hidden by default, hover over the semi-transparent bar at the bottom of the screen to see bring up the editor
 7. Debug mode is enabled by default. To turn it off set Configure::write('debug',0) in app/Config/core.php
 
 
@@ -52,7 +54,7 @@ C:\wamp\bin\apache\apachex.x.x\conf\extra\httpd-vhosts.conf. Here is an example:
     ProxyPassReverse /test.com/ http://test.com/
 </VirtualHost>
 ```
-8. Click the Editor button to go sto the editor
+8. Click the Editor button to go to the editor
 9. Click the home button
 10. Click your newly created job to start editing it
 
