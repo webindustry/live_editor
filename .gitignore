@@ -17,8 +17,14 @@ Config/core.php
 !empty
 
 /tmp/cache/**
+/tmp/cache/models/**
+/tmp/cache/persistent/**
+
+/tmp/cache/live_editor/**
 !/tmp/cache/live_editor/empty
+/tmp/cache/live_editor/css_progress/**
 !/tmp/cache/live_editor/css_progress/empty
+
 /tmp/logs
 /tmp/sessions
 /tmp/tests
