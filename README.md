@@ -25,6 +25,7 @@ We started development of Live Editor as a way of learning Javascript and CakePH
 3. Rename app/Config/database.php.default to database.php and insert your database credentials
 5. Go to http://127.0.0.1/live_editor/live_editors
 6. You should now see the test site loaded
+7. Debug mode is enabled by default. To turn it off set Configure::write('debug',0) in app/Config/core.php
 
 
 ## Setting up a new job
@@ -53,9 +54,9 @@ C:\wamp\bin\apache\apachex.x.x\conf\extra\httpd-vhosts.conf. Here is an example:
 
 ## Development notes
 Live Editor has been built with Cake PHP 2.5 and jQuery.
-- Cake PHP debug mode is enabled by default. To turn it off set Configure::write('debug',0) in app/Config/core.php
 
 ## Ideas to improve Live Editor
+- Make it work on more browsers and platforms
 - Multiple stylesheets per project
 - Compass integration to enable separation of code onto different stylesheets
 - Allow multiple users to edit the same stylesheet (in a similar way to editing Google Docs)
