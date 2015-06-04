@@ -19,25 +19,12 @@ We started development of Live Editor as a way of learning Javascript and CakePH
 - Screen size simulator
 - Compatible with CSS/LESS/SASS
 
-
-#### IMPORTANT
-Use this tool at your own risk!! Due to it being a prototype there are numerous issues which we have not had time to address yet, it is therefore advisable to use this tool with caution.
-
-
-#### Ideas to improve Live Editor
-- Multiple stylesheets per project
-- Compass integration to enable separation of code onto different stylesheets
-- Allow multiple users to edit the same stylesheet (in a similar way to editing Google Docs)
-- Image library and simple image editor
-- Pixels to ems units conversion tables
-
-
 ## Installation
 1. Setup a database using the included schema in app/config/schema.sql
 2. Rename app/Config/core.php.default to core.php
 3. Rename app/Config/database.php.default to database.php and insert your database credentials
 5. Go to http://127.0.0.1/live_editor/live_editors
-6. You should see the test site loaded
+6. You should now see the test site loaded
 
 
 ## Setting up a new job
@@ -64,6 +51,14 @@ C:\wamp\bin\apache\apachex.x.x\conf\extra\httpd-vhosts.conf. Here is an example:
 9. Click the home button
 10. Click your newly created job to start editing it
 
+## Development notes
+Live Editor has been built with Cake PHP 2.5 and jQuery.
+- Cake PHP debug mode is enabled by default. To turn it off set Configure::write('debug',0) in app/Config/core.php
 
-
+## Ideas to improve Live Editor
+- Multiple stylesheets per project
+- Compass integration to enable separation of code onto different stylesheets
+- Allow multiple users to edit the same stylesheet (in a similar way to editing Google Docs)
+- Image library and simple image editor
+- Pixels to ems units conversion tables
 
