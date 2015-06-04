@@ -1,0 +1,42 @@
+
+.jPicker TABLE {width:auto; height:300px}
+.jPicker TABLE,
+.jPicker TBODY,
+.jPicker TR,
+.jPicker TD {vertical-align:top}
+.jPicker TABLE,
+.jPicker TABLE TR,
+.jPicker TABLE TR TD,
+.jPicker TABLE TR TD.preview,
+.jPicker TABLE TR TD.button,
+.jPicker TABLE TR TD DIV.bar,
+.jPicker TABLE TR TD DIV.map {margin:0; padding:0}
+.jPicker TABLE {padding:20px}
+.jPicker TABLE {border:0}
+.jPicker TABLE {border:20px solid #F5F5F5; border-width:30px 5px 10px 5px; border-radius:5px}
+.jPicker TABLE TR TD {border:0; background:#F5F5F5}
+.jPicker TABLE TR TD.Move {background-color:#F5F5F5}
+.jPicker TABLE .map {border:1px solid #AAA;}
+.jPicker TABLE .bar {border:1px solid #AAA;}
+.jPicker TABLE .Preview DIV {border:2px solid #F5F5F5}
+.jPicker TABLE .Preview DIV SPAN {width:100%; border:0}
+.jPicker TABLE TR TD INPUT {width:100%}
+.jPicker TABLE TR TD.Button INPUT {width:100%}
+.jPicker TABLE TR TD.text INPUT {border:none; outline:1px solid #E5E5E5; outline-offset:-1px; font-size:9px}
+.jPicker TABLE TR TD.Radio LABEL {font-size:9px}
+.jPicker TABLE TR TD.Radio LABEL INPUT {float:right; width:10px;}
+.jPicker TABLE TR.Value TD LABEL {margin:0; padding:0}
+.jPicker TABLE TR TD {line-height:1}
+.jPicker TABLE TR TD INPUT {outline:0}
+
+DIV.jPicker.Container {margin-top:400px}
+
+.picker #LiveButton,
+.picker #Callbacks {display:none}
+.picker SPAN#Commit {background-color: #e2ddcf; display: none; float: left; height: 50px; margin: 10px; width: 50px;}
+.picker SPAN#Live {display:none; float: left; height: 50px; margin: 10px; width: 50px;}
+
+.colorPickerClose {cursor:pointer; margin-top:-35px; margin-left:-15px; position:absolute; color:#555; font-weight:bold; font-family:arial; font-size:12px}
+.colorPickerClose:HOVER {color:#000; text-decoration:none}
+.Ok {display:none}
+

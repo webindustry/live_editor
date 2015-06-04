@@ -1,0 +1,8 @@
+
+.test {background-image:url(/dan.com/page.png)};
+.test {background-image:url( /dan.com/page.png )};
+.test {background-image:url( "/dan.com/page.png" )};
+.test {background-image:url(  '/dan.com/page.png'  )};
+.test {background-image:url('/dan.com/page.png')};
+
+* {background:yellow}

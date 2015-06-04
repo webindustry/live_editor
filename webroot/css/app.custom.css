@@ -1,0 +1,183 @@
+	
+	body#liveEditor {background-position:left top}
+
+	#editor iframe {float:left}
+
+	div#myNavWrapper {background-color:#222;overflow:auto}
+	div#myNavWrapper ul.myNav,
+	div#myNavWrapper ul.myNav li {padding:0; margin:0; float:left}
+	div#myNavWrapper ul.myNav li {display:inline-block; font-size:12px}
+	div#myNavWrapper ul.myNav li a {padding:0 3px; color:#FFF}
+	ul.myNav li a.navJobCtrl {padding-left:0; float:right}
+	ul.myNav li a:hover {text-decoration:none}
+	ul.myNav li a.navJobCtrl.active,
+	ul.myNav li a .glyphicon:hover {color:#CC0000}
+	ul#navJobs li.jobStatus2 {background-color:#EEE}
+	ul#navJobs li.jobStatus0 a:hover,
+	ul#navJobs li.jobStatus1 a:hover {color:#CC0000}
+	ul#navJobs li.jobStatus2 a {color:#222}
+	div#myNavWrapper ul#navJobs {width:80%; float:left}
+	div#myNavWrapper ul#navAdmin {width:20%; float:right}
+	div#myNavWrapper ul#navJobs li {border-right:1px solid #444}
+	div#myNavWrapper ul#navAdmin li {float:right;border-left:1px solid #444}
+	iframe.jobStatus1 {display:none}
+	li.jobStatus0 a.navJobClose {display:none}
+	
+	.edgeBar li {list-style-type:none}
+	.edgeBar ul,
+	.edgeBar li {padding:0; font-size:11px; margin:0}
+
+	iframe.md,iframe.sm,iframe.xs,iframe.xxs {border-radius:5px; box-shadow:0 0 5px #000; left:50%; position:absolute}
+	iframe.active {background:#EFEFEF}
+	iframe.liveEditor {height:300px; border:0}
+	/*iframe.activated {border:2px solid #CC0000; height:300px}*/
+	.liveCss {font-family:consolas!important; font-size:11px; width:100%; height:300px; background-color:#333; color:#FFF; border:0; float:right; opacity:0.9; display:none!important}
+	
+	ul#screenWidths,
+	ul#screenWidths li {margin:0; padding:0; list-style-type:none}
+	ul#screenWidths li a {font-size:8px; width:24px; font-weight:bold}
+	
+	/*#ctrlSetsL {border-right:1px solid #DDD}*/
+	.ctrlSet a {border:0; border-top:1px solid #DDD; border-radius:0 }
+	.ctrlSet div:first-child a { border-top:0 }
+	.ctrlSets {background-color:#222; height:100%}
+	#ctrlSetsL {position:fixed; z-index:5}
+	.ctrlSet, #ctrlLoadProgress, #ctrlJobs {margin-bottom:12px}
+	.ctrlSet .btn.active {background-color:#CC0000; border-color:#CC0000; color: #FFFFFF}
+	.ctrlSet .btn.active a {border-top:1px solid #CC0000}
+		
+	/*CodeMirror*/
+	.CodeMirror {position:fixed; bottom:0; right:0; padding-bottom:30px}
+	/*.CodeMirror.dormant {height:20px!important}*/
+	/*iframe.dormant {bottom:40px!important; top:40px!important; height:90%!important}*/
+	.CodeMirror-linenumber {width:50px}
+	.CodeMirror-dialog {
+	  position: absolute;
+	  left: 24px; right: 0;
+	  background: white;
+	  z-index: 5;
+	  padding: .1em .8em;
+	  overflow: hidden;
+	  color: #333;
+	}
+	#cmDeadSpace {display:none; position:fixed; bottom:0; left:0; background:grey; opacity:0.5}
+	#loadingBlock {position:fixed; top:0; left:24px; width:100%; height:100%; z-index:9998; background-color:#FFF; background-image:url(../img/spinning-progress-large.gif); background-position:center; background-repeat:no-repeat}
+	
+	/*Throbbers*/
+	.thribber {z-index:99999999999}
+	.thribber .msg {font-size:12px; color:#333}
+	.thribber span {padding:5px; display:block}
+	.thribber .modal {background-color:black; opacity:0.75; position:fixed; top:0; left:0; width:100%; height:100%}
+	
+	#thribber_fullscreen {position:fixed; top:0; left:0; width:100%; height:100%; text-align:center}
+	#thribber_fullscreen span {background-color:#FFF; position:fixed; bottom:0; width:100%}
+	#thribber_fullscreen img, #thribber_fullscreen .msg {float:left}
+	#thribber_fullscreen img {margin-right:5px}
+	#thribber_fullscreen .modal {background-color:#CC0000}
+	
+	#thribber_topstrip {top:0;}
+	#thribber_basestrip {bottom:0;}
+	
+	.thribber_strip,
+	.thribber_strip span {position:fixed; left:0; width:100%}
+	.thribber_strip span {background-color:#FFF; width:100%; overflow:auto}
+	.thribber_strip img, .thribber_strip .msg {float:left}
+	.thribber_strip img {margin-right:5px}
+	
+	/*alerts*/
+	.alert {position:absolute; width:100%; margin:0; bottom:0; z-index:99999999999}
+	
+	/*ui*/
+	.sizeHandle {background-color:#293134; cursor:pointer}
+	.layoutMode0 .sizeHandle {height:12px}
+	.layoutMode1 .sizeHandle {width:10px; height:300px; height:100%; position:absolute; z-index:9997; right:0px}
+	.sizeHandle:hover {background-color:#2F393C}
+	#sizerBlocker {width:100%; position:fixed; bottom:0; top:0; opacity:0.5; z-index:0}
+	BODY.useCached iframe {outline:1px solid #CC0000; outline-offset:-1px;/* border:10px solid #00FF00*/}
+
+	/*ui edgeBars*/
+	.edgeBar {position:fixed; background:#EFEFEF; display:none; z-index:9999}
+	#edgeBarL {border-right:1px solid #DDD}
+	#edgeBarInner {padding:24px}
+	.edgeBarClose SPAN {color:#666; padding:5px}
+
+	.btnList li {font-size: 14px}
+	ul.ctrlList, ul.btnList {margin-bottom:24px; line-height:24px}
+	.ctrlList li {border-bottom:1px solid #DDD}
+	.ctrlList li:last-child {border-bottom:0}
+	.ctrlList li span.actions {float:right}
+	.ctrlList li span.actions A {margin-left:10px}
+	.ctrlList li span.info span {display:inline-block; width:20px}
+
+	/*docs*/
+	.doc h3 {font-size:14px; margin-top:0}
+	.doc dl {font-size:12px;  overflow:auto}
+	.doc dl dt, .doc dl dd {width:50%; line-height:24px; float:left; border-bottom:1px solid #E5E5E5}
+	.key {font-family:consolas, mono, sans; background:#ECECEC; padding:0 3px; border-radius:2px; border:1px solid #BBB; font-size:11px; line-height:18px; display:inline-block}
+	.keyPlus {display:inline-block; margin:0 2px; color:#666}
+
+	/*asset manager*/
+	#assetsColors {height:700px; overflow-y:auto}
+	#assetsColors.assets a.c {display:inline-block; width:100%; font-size:11px; font-family:consolas; color:#333; text-align:center; line-height:60px; text-shadow:1px 1px 0 rgba(255,255,255,0.5)}
+	#assetsColors.assets a.c:hover {outline:2px solid #333; outline-offset:-2px; cursor:pointer; text-decoration:none; color:#FFF}
+	
+	/*CSS inspector*/
+	.elInf {font-size:10px; font-family:arial; font-weight:normal; background-color:#2F393C; line-height:12px; color:#E0E2E4; padding:1px; position:fixed; right:18px; text-align:left; line-height:10px; width:250px; text-indent:0 ;padding:0; z-index:99999999999}
+	.elInf UL {margin:0; padding:5px; background-color:#678CB1}
+	.elInf UL LI {margin:0 0 3px 0; padding:0; list-style-type:none; overflow:hidden;}
+	.elInf UL LI SPAN.moreName {display:inline-block; width:20%; float:left}
+	.elInf UL LI SPAN.moreDetail {display:inline-block; width:79%; float:left; min-height:12px;}
+	.elInf P.swatch {height:12px; float:left; padding-right:3px}
+	.elInf A.butt.close {background-image:url(../img/inspect_5.png)}
+	.elInf A.butt.all {background-image:url(../img/inspect_4.png)}
+	.elInf A.butt.transfer {background-image:url(../img/inspect_1.png)}
+	.elInf A.butt.transferBefore {background-image:url(../img/inspect_2.png)}
+	.elInf A.butt.transferAfter {background-image:url(../img/inspect_3.png)}
+	.elInf A.butt.close:HOVER {background-image:url(../img/inspect_on_5.png)}
+	.elInf A.butt.all:HOVER {background-image:url(../img/inspect_on_4.png)}
+	.elInf A.butt.transfer:HOVER {background-image:url(../img/inspect_on_1.png)}
+	.elInf A.butt.transferBefore:HOVER {background-image:url(../img/inspect_on_2.png)}
+	.elInf A.butt.transferAfter:HOVER {background-image:url(../img/inspect_on_3.png)}
+	.elInf A.close {right:0}
+	.elInf A.all {right:12px}
+	.elInf A.close, .elInf A.all {position:absolute; margin-top:5px}
+	.elInf .itemClick A {color:#FFF; text-decoration:none; cursor:default}
+	.elInf .itemClick A:hover {color:#FFCD22};
+	.elInf SPAN.wrap {display:block}
+	.elInf A.butt {display:inline-block; width:11px; height:11px; text-align:center; text-decoration:none; background:#E0E2E4; color:#343434; margin-right:1px; float:left}
+	.elInf A.butt:HOVER {background-color:#2F393C; color:#FFCD22}
+	.elInf SPAN.item, .elInf SPAN.itemChild {display:inline-block; width:80%; margin-left:3px}
+	.elInf1 {top:0; background-color:#2F393C;}
+	.elInf2 {bottom:0;}
+	.elInfParents, .elInfChildren {background-color:#112; display:block; padding:5px; line-height:12px; font-size:10px}
+	.elInfChildren {background-color:#2F393C}
+	.elInfParents SPAN.wrap:hover, .elInfChildren SPAN.wrap:hover {color:#FFCD22}
+	SPAN.wrap:hover {color:#FFCD22}
+	.elInfItem {display:block; padding:5px; line-height:12px; font-size:10px; font-weight:bold; background-color:#678CB1; color:#FFF}
+	UL.moreInfo {color:#FFF}
+	.elInfItem A.butt {outline:1px solid #678CB1}
+	.hiliteTag {outline:1px solid #616161; outline-offset:-1px}
+
+
+
+
+	#debug {position:fixed; top:40px; right:-45%; width:45%; height:90%; z-index:6; /*display:none*/}
+	#debug.active {right:0}
+	#debug .tabNav A {font-size:10px; padding:3px }
+	.debug {font-family:consolas; font-size:11px; padding:10px; margin-bottom:10px; border:1px solid #666; background:#EFEFEF; height:600px; overflow-y:scroll}
+	.debug>span.title {font-weight:bold; font-family:arial; display:block}
+	/*.debug.db3 {position:fixed; top:40px; right:0; width:40%; height:90%}*/
+	.debug.db3 textarea {width:100%; height:500px; font-family:consolas}
+	.debug span.keycode {font-size:7px; position:absolute; color:#777; margin-left:2px}
+	.debug span.key {border:1px solid #999; display:inline-block; margin-right:5px; padding:0 2px; border-radius:2px; margin-bottom:2px; font-size:14px; font-weight:bold; color:#CC0000}
+	.debug #cmSync.liveCss {width:100%; float:none; display:block}
+	
+
+
+
+
+
+
+
+
+

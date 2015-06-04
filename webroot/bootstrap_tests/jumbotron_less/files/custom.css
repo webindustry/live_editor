@@ -1,0 +1,40 @@
+/* CSS Job Information
+ * Name: test_jumbotron
+ * Stylesheet URI: http://bootstrap_tests/jumbotron//custom.css
+ * 
+ * test_jumbotron
+ */
+
+
+body {
+  padding-top:50px;
+  padding-bottom:50px;
+}
+
+
+
+
+
+
+
+/*
+
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+BODY .jumbotron .container H1 {color:#448453}
+BODY .jumbotron {background:url(../files/ld5.jpg) center center;}
+
+BODY .jumbotron  P {color:#617B9B}
+
+BODY .row {font-family:serif}
+
+BODY .jumbotron {background-color:#123}
+BODY .jumbotron {background:url(../files/ld5.jpg) center center;}
+*/
+
+
+
+

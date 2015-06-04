@@ -1,0 +1,14 @@
+{
+		"name": "example-app",
+		"require": {
+			"cakephp/cakephp": "2.5.*",
+			"slywalker/boost_cake" : "*",
+			"twbs/bootstrap" : "*"
+		},
+		"require-dev": {
+			"cakephp/debug_kit" : "2.2.*"
+		},
+		"config": {
+			"vendor-dir": "Vendor/"
+		}
+	}

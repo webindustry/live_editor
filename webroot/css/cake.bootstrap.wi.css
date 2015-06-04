@@ -1,0 +1,17 @@
+
+/*DEV*/
+.cakeConstants {background-color:#FFF; overflow:auto; font-family:consolas}
+.cakeConstants div span {display:block}
+.cakeConstants div span+span {color:#666; border-bottom:1px solid; padding-bottom:10px}
+
+/*GENERIC*/
+.floatR {float:right}
+.floatL {float:left}
+
+/*AJAX*/
+.throbber {position:fixed; top:0; left:0; right:0; background-color:black; color:red}
+
+/**/
+TABLE DL DT,
+TABLE DL DD {width:130px; line-height:20px; height:20px; padding:0; background-color:transparent!important}
+TABLE DL DD { margin-left:130px;width:400px; }

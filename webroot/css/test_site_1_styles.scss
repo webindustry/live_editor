@@ -1,0 +1,27 @@
+
+
+
+$col1: #123456;
+$col2: #FFF;
+* { background-color: lighten($col1, 20%); color:$col2 }
+
+
+
+.0 {/*TEST TEST 0*/}
+.1 {/*TEST TEST 1*/}
+.2 {/*TEST TEST 2*/}
+.3 {/*TEST TEST 3*/}
+.4 {/*TEST TEST 4*/}
+.5 {/*TEST TEST 5*/}
+.6 {/*TEST TEST 6*/}
+.7 {/*TEST TEST 7*/}
+.8 {/*TEST TEST 8*/}
+.9 {/*TEST TEST 9*/}
+
+/*
+.test {background-image:url(/dan.com/page.png)};
+.test {background-image:url( /dan.com/page.png )};
+.test {background-image:url( "/dan.com/page.png" )};
+.test {background-image:url(  '/dan.com/page.png'  )};
+.test {background-image:url('/dan.com/page.png')};
+*/

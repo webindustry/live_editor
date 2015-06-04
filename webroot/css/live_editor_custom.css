@@ -1,0 +1,7 @@
+ @import url(http://127.0.0.1/bootstrap_tests/jumbotron/files/fonts?family=OpenSans-Regular);
+ @import url(http://127.0.0.1/bootstrap_tests/jumbotron/files/fonts?family=OpenSans-BoldItalic);
+
+body {background-color:#182025; color:#FFF; font-family:'Open sans', sans-serif; text-align:center; padding-bottom:300px}
+h2 {font-weight:normal}
+h1 { padding-top:150px; font-size:100px; font-style:italic}
+p {margin-top:70px}

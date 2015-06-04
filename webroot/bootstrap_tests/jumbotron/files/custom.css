@@ -1,0 +1,50 @@
+
+BODY {font-family:'Open Sans', sans-serif;}
+
+body {padding-top:50px}
+
+BODY .jumbotron {padding:80px 0}
+
+BODY .jumbotron .container P {max-width:700px; font-size:24px}
+
+BODY .jumbotron .container H1 {font-weight:bold}
+
+body .jumbotron {background-color:#000}
+BODY .jumbotron .container H1,
+BODY .jumbotron .container P {color:#D8D5ED}
+
+body .jumbotron {background:url(../files/hubble.png#) center top;}
+
+
+
+
+
+BODY .jumbotron .container H1 {font-style:italic}
+
+A.navbar-brand {font-family:'Open Sans';font-weight:bold; font-style:italic} 
+
+BODY {background-color:#131C16}
+
+BODY .container .row {color:#DDD}
+
+BODY .container HR {border-color:#333}
+
+BODY .container FOOTER P {color:#777}
+
+BODY .jumbotron .container P A {margin-top:30px; font-size:120%; padding:10px 20px; border-color:#092830; border-width:3px;  border-bottom:8px solid #092830}
+
+.navbar.navbar-inverse.navbar-fixed-top {background-color:#131C16}
+.navbar.navbar-inverse.navbar-fixed-top A {color:#FFF}
+
+
+.row p {margin-top:30px}
+.row a {margin-top:10px}
+
+BODY P {text-shadow:1px 1px 2px #000}
+BODY A {text-shadow:0 0 0 #000}
+
+.row .glyphicon {font-size:150%; margin-right:15px}
+
+
+
+

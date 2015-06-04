@@ -1,0 +1,43 @@
+/*
+
+    Name:       Obsidi-dan
+    Author:     Daniel Towers
+
+    CodeMirror template by Daniel Towers
+    Based on the Obsidian color scheme for Eclipse (http://eclipsecolorthemes.org/?view=theme&id=21)
+
+*/
+
+.cm-s-obsidi-dan.CodeMirror {background: #1D1F21; color: #E0E2E4;}
+.cm-s-obsidi-dan div.CodeMirror-selected {background: #804000 !important;}
+.cm-s-obsidi-dan .CodeMirror-gutters {background: #293134; border-right: 0px;}
+.cm-s-obsidi-dan .CodeMirror-guttermarker { color: #E0E2E4; }
+.cm-s-obsidi-dan .CodeMirror-guttermarker-subtle { color: yellow; }
+.cm-s-obsidi-dan .CodeMirror-linenumber {color: #7D8C93;}
+.cm-s-obsidi-dan .CodeMirror-cursor {border-left: 1px solid #FFF !important;}
+
+.cm-s-obsidi-dan span.cm-comment {color: #7D8C93;}
+.cm-s-obsidi-dan span.cm-atom {color: #EC7600;}
+.cm-s-obsidi-dan span.cm-number {color: #EC7600;}
+
+.cm-s-obsidi-dan span.cm-property {color: #678CB1;}
+.cm-s-obsidi-dan span.cm-attribute {color: #678CB1;}
+/*.cm-s-obsidi-dan span.cm-number {color: #FFCD22;}
+.cm-s-obsidi-dan span.cm-keyword {color: #A082BD;}*/
+.cm-s-obsidi-dan span.cm-string {color: #EC7600;}
+.cm-s-obsidi-dan span.cm-variable {color: #EC7600;}
+.cm-s-obsidi-dan span.cm-variable-2 {color: #EC7600;}
+.cm-s-obsidi-dan span.cm-def {color: #E0E2E4;}
+.cm-s-obsidi-dan span.cm-bracket {color: #E8E2B7;}
+
+.cm-s-obsidi-dan span.cm-builtin {color: #E0E2E4;}
+/*.cm-s-obsidi-dan span.cm-tag {color: #93C763;}*/
+
+.cm-s-obsidi-dan span.cm-link {color: #A082BD;}
+.cm-s-obsidi-dan span.cm-error {background: #000; color: red;}
+
+.cm-s-obsidi-dan .CodeMirror-activeline-background {background: #2F393C !important;}
+.cm-s-obsidi-dan .CodeMirror-matchingbracket { text-decoration: underline; color: white !important;}
+
+.cm-s-obsidi-dan .cm-searching {background: #FF0000;  background: rgba(255, 0, 0, .4)}
+
