@@ -21,14 +21,21 @@ We started development of Live Editor as a way of learning Javascript and CakePH
 - Screen size simulator
 - Compatible with CSS/LESS/SASS
 
-## Installation
-1. Download the code into /www/live_editor (to install the app in a different location INSTALL_DIR and FULL_BASE_URL_TO_APP configs may need to be changed in app/Config/core.php. If you want to use the test jobs, you will also need to update their path settings in the job manager)
-2. Setup a database using the included schema in app/config/schema.sql
-3. Rename app/Config/core.php.default to core.php
-4. Rename app/Config/database.php.default to database.php and insert your database credentials
+## Installation (quick)
+1. Download the app into /www/live_editor
+	- e.g. git clone https://github.com/webindustry/live_editor.git c:/wamp/www/live_editor
+2. Setup a database using the included schema in config/schema.sql
+3. Rename Config/core.php.default to core.php
+4. Rename Config/database.php.default to database.php and insert your database credentials
 5. Go to http://127.0.0.1/live_editor/live_editors
 6. You should now see the test site loaded. The code editor is hidden by default, hover over the semi-transparent bar at the bottom of the screen to see bring up the editor
-7. Debug mode is enabled by default. To turn it off set Configure::write('debug',0) in app/Config/core.php
+7. Debug mode is enabled by default. To turn it off set Configure::write('debug',0) in Config/core.php
+
+##Installation (custom)
+To install the app in a different location, the following paths will need to be changed:
+1. Config/core.php INSTALL_DIR and FULL_BASE_URL_TO_APP
+2. FS_ROOT in Config/config.php
+3. Tot use the test jobs that come included with the app, you will also need to update their path settings in the job manager
 
 
 ## Setting up a new job

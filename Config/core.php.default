@@ -377,5 +377,5 @@ Configure::write('cssModes',array(1 => 'Raw CSS', 2 => 'SCSS', 3 => 'LESS'));
 
 
 $rootPath = pathinfo(ROOT);
-Configure::write('INSTALL_DIR',$rootPath['basename'].'/');
-Configure::write('FULL_BASE_URL_TO_APP', FULL_BASE_URL.'/'.Configure::read('INSTALL_DIR'));
+Configure::write('INSTALL_DIR', $rootPath['basename'] . DS);
+Configure::write('FULL_BASE_URL_TO_APP', FULL_BASE_URL . DS . Configure::read('INSTALL_DIR'));

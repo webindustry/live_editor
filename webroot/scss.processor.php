@@ -1,6 +1,8 @@
 <?php 
 
-	require_once $_SERVER['DOCUMENT_ROOT'].'/live_editor/vendor/leafo/scssphp/scss.inc.php';
+	require_once '../Config/config.php';
+	
+	require_once FS_ROOT . DIRECTORY_SEPARATOR . 'vendor' . DIRECTORY_SEPARATOR . 'leafo' . DIRECTORY_SEPARATOR . 'lessphp' . DIRECTORY_SEPARATOR . 'scss.inc.php';
 
 	$data = file_get_contents('php://input');
 	parse_str($data,$dataArr);
