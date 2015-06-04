@@ -373,12 +373,9 @@ Configure::write('FILE_UPLOAD_CONFIG_DEFAULTS', array(
 ));
 
  
-$rootPath = pathinfo(ROOT);
-Configure::write('FULL_BASE_URL_TO_APP', Configure::read('App.fullBaseUrl').'/'.$rootPath['basename'].'/');//Configure::read('INSTALL_DIR')); //if your app dir is not app, add this after INSTALL_DIR:  . APP_DIR.'/'
 Configure::write('cssModes',array(1 => 'Raw CSS', 2 => 'SCSS', 3 => 'LESS'));
-Configure::write('httrack.path','C:\wamp\bin\php\php5.5.12\WinHTTrack\httrack');
 
 
 $rootPath = pathinfo(ROOT);
-Configure::write('INSTALL_DIR',$rootPath['basename'].'/');	//leave blank if your cake installation resides in the root. If your cake installation is in a different path, you may need to manuall set this part
-Configure::write('FULL_BASE_URL_TO_APP', FULL_BASE_URL.'/'.Configure::read('INSTALL_DIR')); //if your app dir is not app, add this after INSTALL_DIR:  . APP_DIR.'/'
+Configure::write('INSTALL_DIR',$rootPath['basename'].'/');
+Configure::write('FULL_BASE_URL_TO_APP', FULL_BASE_URL.'/'.Configure::read('INSTALL_DIR'));

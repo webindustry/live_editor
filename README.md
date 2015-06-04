@@ -22,9 +22,10 @@ We started development of Live Editor as a way of learning Javascript and CakePH
 - Compatible with CSS/LESS/SASS
 
 ## Installation
-1. Setup a database using the included schema in app/config/schema.sql
-2. Rename app/Config/core.php.default to core.php
-3. Rename app/Config/database.php.default to database.php and insert your database credentials
+1. Download the code into /www/live_editor (to install the app in a different location INSTALL_DIR and FULL_BASE_URL_TO_APP configs may need to be changed in app/Config/core.php. If you want to use the test jobs, you will also need to update their path settings in the job manager)
+2. Setup a database using the included schema in app/config/schema.sql
+3. Rename app/Config/core.php.default to core.php
+4. Rename app/Config/database.php.default to database.php and insert your database credentials
 5. Go to http://127.0.0.1/live_editor/live_editors
 6. You should now see the test site loaded. The code editor is hidden by default, hover over the semi-transparent bar at the bottom of the screen to see bring up the editor
 7. Debug mode is enabled by default. To turn it off set Configure::write('debug',0) in app/Config/core.php
