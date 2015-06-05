@@ -34,6 +34,7 @@ Quick video introduction: http://autode.sk/1wXSBPS
 
 ##Installation (custom)
 To install the app in a different location, the following paths will need to be changed:
+
 1. Config/core.php INSTALL_DIR and FULL_BASE_URL_TO_APP
 2. FS_ROOT in Config/config.php
 3. Tot use the test jobs that come included with the app, you will also need to update their path settings in the job manager
