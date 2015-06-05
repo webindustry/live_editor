@@ -12,6 +12,7 @@ Config/core.php
 .buildpath
 .project
 
+[Cc]onfig/config.php
 [Cc]onfig/core.php
 [Cc]onfig/database.php
 !empty

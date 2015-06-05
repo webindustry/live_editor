@@ -1,0 +1,3 @@
+<?php 
+	define('FS_ROOT', 'C:\wamp\www\live_editor');
+?>
