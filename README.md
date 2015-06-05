@@ -25,11 +25,12 @@ Quick video introduction: http://autode.sk/1wXSBPS
 1. Download the app into /www/live_editor
 	- e.g. git clone https://github.com/webindustry/live_editor.git c:/wamp/www/live_editor
 2. Setup a database using the included schema in config/schema.sql
-3. Rename Config/core.php.default to core.php
-4. Rename Config/database.php.default to database.php and insert your database credentials
-5. Go to http://127.0.0.1/live_editor/live_editors
-6. You should now see the test site loaded. The code editor is hidden by default, hover over the semi-transparent bar at the bottom of the screen to see bring up the editor
-7. Debug mode is enabled by default. To turn it off set Configure::write('debug',0) in Config/core.php
+3. Rename Config/config.php.default to config.php
+4. Rename Config/core.php.default to core.php
+5. Rename Config/database.php.default to database.php and insert your database credentials
+6. Go to http://127.0.0.1/live_editor/live_editors
+7. You should now see the test site loaded. The code editor is hidden by default, hover over the semi-transparent bar at the bottom of the screen to see bring up the editor
+8. Debug mode is enabled by default. To turn it off set Configure::write('debug',0) in Config/core.php
 
 ##Installation (custom)
 To install the app in a different location, the following paths will need to be changed:
@@ -44,10 +45,10 @@ To install the app in a different location, the following paths will need to be 
 3. Create a new FTP account if you want to publish your changes to a remote website
 4. Click create job
 5. Add your job details. Example: These would be the settings needed to load http://mysite.com/cms/home and edit http://mysite.com/cms/css/styles.css
-    - URL: 			        mysite.com
-    - Default URI: 		    cms/home
-    - Stylesheet URI Root: 	http://mysite.com/cms
-    - Stylesheet URI:		css/styles.css
+  - URL: mysite.com
+  - Default URI: cms/home
+  - Stylesheet URI Root: http://mysite.com/cms
+  - Stylesheet URI:	css/styles.css
 6. Choose your FTP account
 7. Allow the target website to be loaded via Apache proxy. The editor loads the target website in an iframe so to see changes to a live website you need to add an entry to your Apache httpd-vhosts.conf e.g.
 C:\wamp\bin\apache\apachex.x.x\conf\extra\httpd-vhosts.conf. Here is an example:
