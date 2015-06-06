@@ -4,7 +4,7 @@
 #### Application info
 Live Editor is a tool for editing and managing CSS/SASS/LESS files. It enables you to edit CSS and see your changes in realtime. Once changes are made a new draft can be saved, or the stylesheet can be published to the live website.
 
-The inspiration for Live Editor came from the CSS editor built into Chris Pedrick's Web Developer toolbar, and the editors built into Firefox and Google Chrome. We used these regularly as part of our toolkit but wanted a way to save and publish our changes from within the editor. We also wanted an editor that was browser independent. Live Editor runs from within a web browser so no installation is necessary.
+The inspiration for Live Editor came from the CSS editor built into Chris Pedrick's Web Developer toolbar, and the editors built into Firefox and Google Chrome. We used these regularly as part of our toolkit but wanted a way to save and publish our changes from within the editor. We also wanted an editor that was browser independent. Live Editor runs from within a web browser so no end-user installation is necessary.
 
 We started development of Live Editor as a way of learning Javascript and CakePHP therefore much of the code needs some work. It is by no means a finished product but the concept is good and we are pleased to say that we have been using it to edit many projects and it has proved to be a great time saver. It would be great to see this prototype version turned into a finished product.
 
@@ -24,7 +24,7 @@ Quick video introduction: http://autode.sk/1wXSBPS
 ## Installation (quick)
 1. Download the app into /www/live_editor
 	- e.g. git clone https://github.com/webindustry/live_editor.git c:/wamp/www/live_editor
-2. Setup a database using the included schema in config/schema.sql
+2. Setup a database using the included schema in Config/Schema/schema.sql
 3. Rename Config/config.php.default to config.php
 4. Rename Config/core.php.default to core.php
 5. Rename Config/database.php.default to database.php and insert your database credentials
@@ -37,7 +37,7 @@ To install the app in a different location, the following paths will need to be 
 
 1. Config/core.php INSTALL_DIR and FULL_BASE_URL_TO_APP
 2. FS_ROOT in Config/config.php
-3. Tot use the test jobs that come included with the app, you will also need to update their path settings in the job manager
+3. To use the test jobs that come included with the app, you will also need to update their path settings in the job manager
 
 
 ## Setting up a new job
