@@ -2863,7 +2863,6 @@ $.getJSON("http://query.yahooapis.com/v1/public/yql?"+
 		var link = null;
 		var css = null;
 		
-		alert(sourceContents.find('link').toSource());
 		sourceContents.find('link').each(function(){
 			if($(this).attr('href').indexOf(job.stylesheet_uri) != -1){
 				ssMatchCount++;
