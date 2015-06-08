@@ -25,6 +25,7 @@ class AppController extends Controller {
 		//print_r(Configure::read('APP_BASE_URI'));exit;
 		
 		$jsVars = '<script>'."\n";
+		$jsVars .= 'var PROXY_URL_PREFIX = "'.PROXY_URL_PREFIX.'";'."\n";
 		$jsVars .= 'var HTTP_HOST = "'.$_SERVER['HTTP_HOST'].'";'."\n";
 		$jsVars .= 'var WEBROOT = "'.$this->webroot.'";'."\n";
 		$jsVars .= 'var APP_BASE_URI = "'.Configure::read('APP_BASE_URI').'";'."\n";

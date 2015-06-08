@@ -163,7 +163,7 @@ $.getJSON("http://query.yahooapis.com/v1/public/yql?"+
 	var LiveEditor = LiveEditor || {};
 	LiveEditor.common = {
 		paths : {
-			proxyUrlPrefix : 'http://127.0.0.1',
+			proxyUrlPrefix : PROXY_URL_PREFIX,
 			dataStateManager : APP_BASE_URI+'live_editors/data_state_manager',
 			cssProgressManager : APP_BASE_URI+'live_editors/css_progress_manager',
 			cssBackupManager : APP_BASE_URI+'live_editors/css_backup_manager',
@@ -2862,6 +2862,8 @@ $.getJSON("http://query.yahooapis.com/v1/public/yql?"+
 		var modified = LiveEditor.activationManager.iframeModifiedContentCheck(job,'stylesheetProcessor');
 		var link = null;
 		var css = null;
+		
+		alert(sourceContents.find('link').toSource());
 		sourceContents.find('link').each(function(){
 			if($(this).attr('href').indexOf(job.stylesheet_uri) != -1){
 				ssMatchCount++;
