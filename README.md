@@ -31,6 +31,7 @@ Quick video introduction: http://autode.sk/1wXSBPS
 6. Go to http://127.0.0.1/live_editor/live_editors
 7. You should now see the test site loaded. The code editor is hidden by default, hover over the semi-transparent bar at the bottom of the screen to see bring up the editor
 8. Debug mode is enabled by default. To turn it off set Configure::write('debug',0) in Config/core.php
+9. Enable the following Apache modules rewrite_module (CakePHP requires this), proxy_connect_module, proxy_module and proxy_http_module
 
 ##Installation (custom)
 To install the app in a different location, the following paths will need to be changed:
